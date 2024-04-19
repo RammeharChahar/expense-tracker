@@ -1,0 +1,240 @@
+.expense_wrapper {
+  background: #626262;
+  width: 98%;
+  height: 269px;
+  border-radius: 10px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.content_wrapper {
+  background: #9b9b9b;
+  width: 400px;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.text_primary {
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.47px;
+  color: white;
+  margin-bottom: 20px;
+}
+.text_sec {
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34.47px;
+  color: #9dff5b;
+}
+.btn_add {
+  width: 167.65px;
+  height: 38px;
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  border: none;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text_sec_1 {
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34.47px;
+  text-align: left;
+  color: #f4bb4a;
+}
+.btn_add_1 {
+  width: 167.65px;
+  height: 38px;
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+  border: none;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ReactModal__Content {
+  position: relative;
+  border-radius: 15px !important;
+  padding: 20px;
+  background-color: #efefefd9 !important;
+  width: 400px;
+  width: 32%;
+  height: 44%;
+  outline: none;
+  margin: auto;
+}
+
+.Modal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.customModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px !important;
+  padding: 20px;
+  background-color: #efefefd9 !important;
+  width: 400px;
+  width: 40%;
+  height: 20%;
+  outline: none;
+  margin: auto;
+}
+.left_wrapper {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.parent_wrapper {
+  display: flex;
+  gap: 25px;
+}
+.text_heading {
+  color: white;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.left_div {
+  width: 738.33px;
+  height: 345.03px;
+  border-radius: 15px;
+  background: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.recent_wrapper {
+  margin-top: 15px;
+}
+.expense_list {
+  display: flex;
+  justify-content: space-between;
+}
+.left_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.right_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.expense_icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 23px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.text_list_1 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.text_list_2 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #9b9b9b;
+  margin: 0;
+  padding: 0;
+}
+.text_list_3 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  color: #f4bb4a;
+  margin-right: 15px;
+}
+.delete_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ff3e3e;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.icon-1 {
+  color: white;
+  background: transparent;
+}
+.update_icon {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #f4bb4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.btm_line {
+  border: 1px solid #9b9b9b;
+  margin-top: 12px;
+}
+.right_wrapper {
+ 
+}
+.right_main_heading {
+  font-family: 'Ubuntu';
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+.right_div{
+  width: 600px;
+  height: 345px;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+}
