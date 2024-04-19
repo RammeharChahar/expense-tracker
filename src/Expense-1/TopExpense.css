@@ -109,7 +109,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 240px;
+  gap: 40px;
 }
 .text_heading {
   color: white;
@@ -122,11 +122,11 @@
   margin-bottom: 8px;
 }
 .left_div {
-  width: 650px !important;
-  height: 345.03px;
+  width: 640px !important;
+  height: 330px;
   border-radius: 15px;
   background: white;
-  padding: 20px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -232,12 +232,15 @@
   margin: 0;
   padding: 0;
   margin-bottom: 8px;
-  margin-top: 18px;
+  margin-top: 5px;
 }
 .right_div{
   width: 600px !important;
-  height: 330px;
+  height: 330px ;
   background: white;
   border-radius: 15px;
   padding: 25px;
+}
+.left_wrap{
+  margin : 0 0 10px 15px;
 }
