@@ -1,16 +1,16 @@
-import React,{useEffect, useState} from "react";
-import "./TopExpense.css";
+import React,{useEffect, useState} from "react"; 
+import "./TopExpense.css"; 
 import { PieChart, Pie, Cell, Legend, ResponsiveContainer } from "recharts";
-import Modal from 'react-modal';
-import ExpenseForm from "../FormComponent/ExpenseForm";
-import AddWallet from "../AddWallet/AddWallet";
+import Modal from 'react-modal'; 
+import ExpenseForm from "../FormComponent/ExpenseForm"; 
+import AddWallet from "../AddWallet/AddWallet"; 
 import "@fontsource/open-sans"; 
 import "@fontsource/open-sans/400.css"; 
-import { TiDeleteOutline } from "react-icons/ti";
-import { SlPencil } from "react-icons/sl";
-import { IoPizzaOutline } from "react-icons/io5";
-import { LuGift } from "react-icons/lu";
-import { MdCardTravel } from "react-icons/md";
+import { TiDeleteOutline } from "react-icons/ti"; 
+import { SlPencil } from "react-icons/sl"; 
+import { IoPizzaOutline } from "react-icons/io5"; 
+import { LuGift } from "react-icons/lu"; 
+import { MdCardTravel } from "react-icons/md"; 
 import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip} from 'recharts';
 
 
@@ -247,7 +247,7 @@ function TopExpense() {
            </div>
       </div>
 
-      <div className="right_wrapper">
+      {/* <div className="right_wrapper">
         <h1 className="right_main_heading">Top Expenses</h1>
         <div className="right_div">
         <ResponsiveContainer width="100%" height={360}>
@@ -263,9 +263,9 @@ function TopExpense() {
           <Bar dataKey="value" fill="#8884d8" />
         </BarChart>
       </ResponsiveContainer>
-        </div>
+        </div> */}
+      {/* </div> */}
       </div>
-    </div>
     </div>
   );
 }
