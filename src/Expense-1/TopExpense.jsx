@@ -192,7 +192,7 @@ function TopExpense() {
       </Modal>
       
 
-      <ResponsiveContainer width={420} height={280}>
+      <ResponsiveContainer width={400} height={270}>
         <PieChart >
           <Pie
             data={pieChartArray}
@@ -250,7 +250,7 @@ function TopExpense() {
       <div className="right_wrapper">
         <h1 className="right_main_heading">Top Expenses</h1>
         <div className="right_div">
-        <ResponsiveContainer width="100%" height={370}>
+        <ResponsiveContainer width="80%" height={370}>
         <BarChart
           width={500}
           height={300}

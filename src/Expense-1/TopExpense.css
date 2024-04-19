@@ -12,7 +12,7 @@
 }
 .content_wrapper {
   background: #9b9b9b;
-  width: 400px;
+  width: 350px;
   height: 180px;
   border-radius: 15px;
   display: flex;
@@ -24,7 +24,7 @@
 }
 .text_primary {
   font-family: Ubuntu;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 34.47px;
   color: white;
@@ -32,7 +32,7 @@
 }
 .text_sec {
   font-family: Ubuntu;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 34.47px;
   color: #9dff5b;
@@ -52,7 +52,7 @@
 }
 .text_sec_1 {
   font-family: Ubuntu;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 34.47px;
   text-align: left;
@@ -77,7 +77,7 @@
   padding: 20px;
   background-color: #efefefd9 !important;
   width: 400px;
-  width: 32%;
+  width: 37%;
   height: 44%;
   outline: none;
   margin: auto;
@@ -110,7 +110,7 @@
 }
 .text_heading {
   color: white;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu';
   font-size: 28px;
   font-style: italic;
   font-weight: 700;
@@ -119,11 +119,11 @@
   margin-bottom: 8px;
 }
 .left_div {
-  width: 738.33px;
+  width: 690px;
   height: 345.03px;
   border-radius: 15px;
   background: white;
-  padding: 25px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
