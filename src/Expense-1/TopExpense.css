@@ -109,7 +109,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 180px;
+  gap: 240px;
 }
 .text_heading {
   color: white;
@@ -122,7 +122,7 @@
   margin-bottom: 8px;
 }
 .left_div {
-  width: 600px !important;
+  width: 650px !important;
   height: 345.03px;
   border-radius: 15px;
   background: white;
@@ -219,7 +219,7 @@
   margin-top: 12px;
 }
 .right_wrapper {
-  width: 200px;
+  width: 400px !important;
 }
 .right_main_heading {
   font-family: 'Ubuntu';
@@ -235,7 +235,7 @@
   margin-top: 18px;
 }
 .right_div{
-  width: 600px;
+  width: 600px !important;
   height: 330px;
   background: white;
   border-radius: 15px;

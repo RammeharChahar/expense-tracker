@@ -247,7 +247,7 @@ function TopExpense() {
            </div>
       </div>
 
-      {/* <div className="right_wrapper">
+      <div className="right_wrapper">
         <h1 className="right_main_heading">Top Expenses</h1>
         <div className="right_div">
         <ResponsiveContainer width="100%" height={360}>
@@ -263,8 +263,8 @@ function TopExpense() {
           <Bar dataKey="value" fill="#8884d8" />
         </BarChart>
       </ResponsiveContainer>
-        </div> */}
-      {/* </div> */}
+        </div>
+       </div>
       </div>
     </div>
   );
