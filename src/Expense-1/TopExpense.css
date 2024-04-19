@@ -78,7 +78,7 @@
   background-color: #efefefd9 !important;
   width: 400px;
   width: 37%;
-  height: 44%;
+  height: 48%;
   outline: none;
   margin: auto;
 }
@@ -103,10 +103,13 @@
 .left_wrapper {
   margin-left: 20px;
   margin-bottom: 10px;
+  width: 600px;
 }
 .parent_wrapper {
   display: flex;
-  gap: 25px;
+  flex-direction: row;
+  align-items: center;
+  gap: 180px;
 }
 .text_heading {
   color: white;
@@ -119,7 +122,7 @@
   margin-bottom: 8px;
 }
 .left_div {
-  width: 690px;
+  width: 700px;
   height: 345.03px;
   border-radius: 15px;
   background: white;
@@ -216,7 +219,7 @@
   margin-top: 12px;
 }
 .right_wrapper {
- 
+  width: 200px;
 }
 .right_main_heading {
   font-family: 'Ubuntu';
@@ -233,7 +236,7 @@
 }
 .right_div{
   width: 600px;
-  height: 345px;
+  height: 330px;
   background: white;
   border-radius: 15px;
   padding: 25px;

@@ -250,7 +250,7 @@ function TopExpense() {
       <div className="right_wrapper">
         <h1 className="right_main_heading">Top Expenses</h1>
         <div className="right_div">
-        <ResponsiveContainer width="80%" height={370}>
+        <ResponsiveContainer width="100%" height={360}>
         <BarChart
           width={500}
           height={300}
